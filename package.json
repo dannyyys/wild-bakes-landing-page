@@ -1,6 +1,16 @@
 {
   "name": "with-chakra-ui",
   "version": "0.1.0",
+  "contributors": [
+    {
+      "name": "Yeow Ying Sheng"
+    },
+    {
+      "name": "Okkar Min",
+      "email": "OMIN001@e.ntu.edu.sg",
+      "url": "https://okkarm.in/"
+    }
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
