@@ -17,7 +17,7 @@ const Index = () => {
         Customers loves WILD BAKES
       </Box>
 
-      {/* <TestimonialCarousel /> */}
+      <TestimonialCarousel />
       <Footer />
     </Layout>
   );

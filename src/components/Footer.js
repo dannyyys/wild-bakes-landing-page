@@ -7,15 +7,16 @@ export const Footer = () => {
   return (
     <Box backgroundColor="#132C36" align="center" boxShadow="2xl">
       <Flex
-        direction="row"
+        direction={["column", "row"]}
         align="baseline"
         paddingBottom="15px"
         paddingTop="15px"
         width="80vw"
+        align="center"
       >
         <OrderNowButton />
         <Spacer />
-        <Flex>
+        <Flex direction={["column", "row"]}>
           <Link href="https://www.facebook.com/wildbakesco/" isExternal>
             <Button
               backgroundColor="#132C36"

@@ -4,7 +4,7 @@ import { IntroCarousel } from "./IntroCarousel";
 export const Intro = () => {
   return (
     <Box align="center" paddingTop="10vh">
-      <Flex direction="row" width="70vw" align="center">
+      <Flex direction={["column", "row"]} width="70vw" align="center">
         <Flex direction="column" align="center">
           <Image src="intro.png" boxSize="300" />
 
