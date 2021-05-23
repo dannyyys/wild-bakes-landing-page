@@ -14,7 +14,7 @@ export const IntroCarouselLib = () => {
   return (
     <Box
       className="keen-slider"
-      width={["95vw", "50vw", "40vw"]}
+      width={["100vw", "50vw", "40vw"]}
       ref={sliderRef}
     >
       <div className="keen-slider__slide">

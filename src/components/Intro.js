@@ -4,7 +4,11 @@ import { IntroCarouselLib } from "./IntroCarouselLib";
 export const Intro = () => {
   return (
     <Box align="center" marginTop="10">
-      <Flex direction={["column", "row"]} width="70vw" align="center">
+      <Flex
+        direction={["column", "row"]}
+        width={["full", "70vw"]}
+        align="center"
+      >
         <Image src="intro.png" boxSize="auto" />
 
         <Spacer />
