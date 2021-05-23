@@ -1,34 +1,47 @@
-import { Box, Flex, Button, Spacer, Image } from "@chakra-ui/react";
-import { IntroCarousel } from "./IntroCarousel";
+import { Box, Heading, Image, Stack } from "@chakra-ui/react";
 
 export const TopSellers = () => {
   return (
-    <Box align="center" paddingTop="10vh" width="full">
-      <Flex direction={["column", "row"]} width="70vw" align="center">
-        <Box boxSize="20vw">
+    <Box align="center" marginTop="10" width="full">
+      <Heading as="h3" size="lg" textColor="#F8F5ED">
+        Our Top Sellers
+      </Heading>
+      <Stack
+        direction={["column", "row"]}
+        marginTop="10"
+        align="center"
+        width="70vw"
+        spacing="5"
+      >
+        <Box boxSize={["3xs", "xs"]}>
           <Image
             src="ᴄʜᴏᴄᴏʟᴀᴛᴇ ᴄʀᴇᴀᴍ ᴄʜᴏᴜx ᴀᴜ ᴄʀᴀǫᴜᴇʟɪɴ.jpg"
             borderRadius="2xl"
             boxShadow="2xl"
           />
         </Box>
-        <Spacer />
-        <Box boxSize="20vw">
+        <Box boxSize={["3xs", "xs"]}>
           <Image
             src="ʜᴀᴢᴇʟɴᴜᴛ ᴄʜᴏᴄᴏʟᴀᴛᴇ ɢᴀɴᴀᴄʜᴇ ᴛᴀʀᴛᴇ.jpg"
             borderRadius="2xl"
             boxShadow="2xl"
           />
         </Box>
-        <Spacer />
-        <Box boxSize="20vw">
+        <Box boxSize={["3xs", "xs"]}>
           <Image
             src="Choux Au Craquelin.jpg"
             borderRadius="2xl"
             boxShadow="2xl"
           />
         </Box>
-      </Flex>
+        <Box boxSize={["3xs", "xs"]}>
+          <Image
+            src="ʜᴀᴢᴇʟɴᴜᴛ ᴄʜᴏᴄᴏʟᴀᴛᴇ ɢᴀɴᴀᴄʜᴇ ᴛᴀʀᴛᴇ.jpg"
+            borderRadius="2xl"
+            boxShadow="2xl"
+          />
+        </Box>
+      </Stack>
     </Box>
   );
 };
