@@ -1,5 +1,6 @@
 import { Box, Flex, Button, Spacer, Image } from "@chakra-ui/react";
 import { IntroCarousel } from "./IntroCarousel";
+import { IntroCarouselLib } from "./IntroCarouselLib";
 
 export const Intro = () => {
   return (
@@ -8,12 +9,13 @@ export const Intro = () => {
         <Flex direction="column" align="center">
           <Image src="intro.png" boxSize="300" />
 
-          <Box color="white" fontSize="35">
+          <Box color="white" fontSize="2xl">
             Home Bakery Based In Singapore
           </Box>
         </Flex>
         <Spacer />
-        <IntroCarousel />
+        {/* <IntroCarousel /> */}
+        <IntroCarouselLib />
       </Flex>
     </Box>
   );
