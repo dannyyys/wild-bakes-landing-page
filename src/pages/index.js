@@ -1,4 +1,4 @@
-import { Text, Box, Flex } from "@chakra-ui/react";
+import { Text, Box, Flex, Heading } from "@chakra-ui/react";
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 import { Intro } from "../components/Intro";
@@ -13,10 +13,9 @@ const Index = () => {
       <Header />
       <Intro />
       <TopSellers />
-      <Box paddingTop="10vh" align="center" fontSize="35" color="white">
-        Customers loves WILD BAKES
-      </Box>
-
+      <Heading as="h3" size="lg" align="center" textColor="#F8F5ED">
+        See What Our Customers Are Saying
+      </Heading>
       <TestimonialCarousel />
       <Footer />
     </Layout>
