@@ -8,11 +8,12 @@ export const OrderNowButton = () => {
       isExternal
     >
       <Button
-        backgroundColor="white"
-        variant="solid"
-        size="lg"
+        backgroundColor="#844b55"
         rightIcon={<FaWhatsapp />}
-        fontSize="30"
+        textColor="white"
+        fontSize="lg"
+        fontWeight="bold"
+        width="full"
       >
         Order Now
       </Button>
