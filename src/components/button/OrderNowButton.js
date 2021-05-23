@@ -14,6 +14,9 @@ export const OrderNowButton = () => {
         fontSize="lg"
         fontWeight="bold"
         width="full"
+        _hover={{
+          backgroundColor: "#905d66",
+        }}
       >
         Order Now
       </Button>
