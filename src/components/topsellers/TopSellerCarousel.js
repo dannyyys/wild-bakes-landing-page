@@ -7,17 +7,30 @@ export const TopSellerCarousel = () => {
   const [pause, setPause] = useState(false);
   const timer = useRef();
   const [sliderRef, slider] = useKeenSlider({
-    centered: true,
-    duration: 1000,
+    duration: 3000,
     loop: true,
     mode: "free-snap",
-    slidesPerView: 2,
+
     spacing: 16,
     dragStart: () => {
       setPause(true);
     },
     dragEnd: () => {
       setPause(false);
+    },
+    breakpoints: {
+      "(min-width: 480px)": {
+        slidesPerView: 2,
+        mode: "free-snap",
+      },
+      "(min-width: 768px)": {
+        slidesPerView: 3,
+        mode: "free-snap",
+      },
+      "(min-width: 1300px)": {
+        slidesPerView: 4,
+        mode: "free-snap",
+      },
     },
   });
 
@@ -35,30 +48,36 @@ export const TopSellerCarousel = () => {
       if (!pause && slider) {
         slider.next();
       }
-    }, 2000);
+    }, 3000);
     return () => {
       clearInterval(timer.current);
     };
   }, [pause, slider]);
 
   return (
-    <Box
-      className="keen-slider"
-      width={["100vw", "60vw", "50vw"]}
-      ref={sliderRef}
-      marginTop="5"
-    >
+    <Box className="keen-slider" width={["95vw"]} ref={sliderRef} marginTop="5">
       <div className="keen-slider__slide">
-        <Image borderRadius="2xl" boxShadow="2xl" src="buttercream.jpg" />
+        <Image
+          borderRadius="2xl"
+          boxShadow="2xl"
+          src="buttercream.jpg"
+          boxSize="300"
+        />
       </div>
       <div className="keen-slider__slide">
-        <Image borderRadius="2xl" boxShadow="2xl" src="vanillaRose.jpg" />
+        <Image
+          borderRadius="2xl"
+          boxShadow="2xl"
+          src="vanillaRose.jpg"
+          boxSize={["300", "300", "300"]}
+        />
       </div>
       <div className="keen-slider__slide">
         <Image
           borderRadius="2xl"
           boxShadow="2xl"
           src="lemon yuzu honey tart.jpg"
+          boxSize="300"
         />
       </div>
       <div className="keen-slider__slide">
@@ -66,6 +85,7 @@ export const TopSellerCarousel = () => {
           borderRadius="2xl"
           boxShadow="2xl"
           src="ʜᴀᴢᴇʟɴᴜᴛ ᴄʜᴏᴄᴏʟᴀᴛᴇ ɢᴀɴᴀᴄʜᴇ ᴛᴀʀᴛᴇ.jpg"
+          boxSize="300"
         />
       </div>
       <div className="keen-slider__slide">
@@ -73,6 +93,7 @@ export const TopSellerCarousel = () => {
           borderRadius="2xl"
           boxShadow="2xl"
           src="ᴄʜᴏᴄᴏʟᴀᴛᴇ ᴄʀᴇᴀᴍ ᴄʜᴏᴜx ᴀᴜ ᴄʀᴀǫᴜᴇʟɪɴ.jpg"
+          boxSize="300"
         />
       </div>
       <div className="keen-slider__slide">
@@ -80,6 +101,7 @@ export const TopSellerCarousel = () => {
           borderRadius="2xl"
           boxShadow="2xl"
           src="Choux Au Craquelin.jpg"
+          boxSize="300"
         />
       </div>
     </Box>

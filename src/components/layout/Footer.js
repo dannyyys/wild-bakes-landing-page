@@ -26,7 +26,7 @@ export const Footer = () => {
             backgroundColor="#1D323E"
             size="md"
             color="#F8F5ED"
-            fontSize="lg"
+            fontSize="md"
             leftIcon={<FaFacebookSquare />}
             _hover={{ backgroundColor: "none" }}
           >
@@ -43,7 +43,7 @@ export const Footer = () => {
             backgroundColor="#1D323E"
             size="md"
             color="#F8F5ED"
-            fontSize="lg"
+            fontSize="md"
             leftIcon={<FaInstagram />}
             _hover={{ backgroundColor: "none" }}
           >
@@ -60,7 +60,7 @@ export const Footer = () => {
             backgroundColor="#1D323E"
             size="md"
             color="#F8F5ED"
-            fontSize="lg"
+            fontSize="md"
             leftIcon={<FaRegEnvelope />}
             _hover={{ backgroundColor: "none" }}
           >

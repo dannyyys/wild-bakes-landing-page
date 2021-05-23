@@ -1,19 +1,19 @@
 import { Button, Link } from "@chakra-ui/react";
 import { motion } from "framer-motion";
-import { FaWhatsapp } from "react-icons/fa";
+import { FaClipboardList } from "react-icons/fa";
 
 const MotionButton = motion(Button);
 
-export const OrderNowButton = () => {
+export const MenuButton = () => {
   return (
     <Link
-      href="https://wa.me/%2B6592225198?text=Hello!%20I%20would%20like%20to%20make%20a%20WILDBAKES%20order!"
+      href="https://drive.google.com/file/d/1zavfJ5e9pWyX6CXX7sCCB5jZkN64o_Fj/view"
       isExternal
       _hover={{ textDecoration: "none" }}
     >
       <MotionButton
         backgroundColor="#844b55"
-        rightIcon={<FaWhatsapp />}
+        rightIcon={<FaClipboardList />}
         textColor="white"
         fontSize="xl"
         fontWeight="bold"
@@ -26,7 +26,7 @@ export const OrderNowButton = () => {
         borderRadius="2xl"
         whileHover={{ scale: 1.1 }}
       >
-        Order Now
+        Our Menu
       </MotionButton>
     </Link>
   );

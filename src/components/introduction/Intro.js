@@ -1,4 +1,5 @@
 import { Box, Flex, Image, Center } from "@chakra-ui/react";
+import { MenuButton } from "../button/MenuButton";
 import { OrderNowButton } from "../button/OrderNowButton";
 
 export const Intro = () => {
@@ -13,6 +14,9 @@ export const Intro = () => {
         </Box>
 
         <Center marginTop="10">
+          <MenuButton />
+        </Center>
+        <Center marginTop="5">
           <OrderNowButton />
         </Center>
       </Flex>
