@@ -1,5 +1,5 @@
 import { Box, Flex, Button, Spacer, Image, Text } from "@chakra-ui/react";
-import { OrderNowButton } from "./button/OrderNowButton";
+import { OrderNowButton } from "../button/OrderNowButton";
 import { FaFacebookSquare, FaInstagram, FaRegEnvelope } from "react-icons/fa";
 import { Link } from "@chakra-ui/react";
 

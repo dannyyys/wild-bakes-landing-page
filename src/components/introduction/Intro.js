@@ -1,5 +1,5 @@
 import { Box, Flex, Image, Center } from "@chakra-ui/react";
-import { OrderNowButton } from "./button/OrderNowButton";
+import { OrderNowButton } from "../button/OrderNowButton";
 
 export const Intro = () => {
   return (
@@ -8,7 +8,7 @@ export const Intro = () => {
         <Box align="center">
           <Image
             src="Bakes For The Wild Souls new logo.png"
-            boxSize={["2xs", "auto"]}
+            boxSize={["3xs", "2xs"]}
           />
         </Box>
 
