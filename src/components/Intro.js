@@ -3,7 +3,7 @@ import { OrderNowButton } from "./button/OrderNowButton";
 
 export const Intro = () => {
   return (
-    <Box align="center" paddingTop="10">
+    <Box align="center" paddingTop="5">
       <Flex direction="column" width={["full", "70vw"]} justify="center">
         <Box align="center">
           <Image

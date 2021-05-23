@@ -1,21 +1,15 @@
-import { Box, Flex, Button, Spacer, Image } from "@chakra-ui/react";
+import { Box, Flex, Button, Spacer, Image, Heading } from "@chakra-ui/react";
 import { IntroCarousel } from "./IntroCarousel";
 import { TestimonialCarousel } from "./TestimonialCarousel";
 
 export const Testimonials = () => {
   return (
-    <Box align="center" paddingTop="10vh">
-      <Flex direction="row" width="70vw" align="center">
-        <Flex direction="column" align="center">
-          <Image src="intro.png" boxSize="300" />
+    <Box align="center" marginTop="10" width="full">
+      <Heading as="h3" size="lg" textColor="#F8F5ED" fontWeight="light">
+        Ravishing reviews
+      </Heading>
 
-          <Box color="white" fontSize="35">
-            Home Bakery Based In Singapore
-          </Box>
-        </Flex>
-        <Spacer />
-        <TestimonialCarousel />
-      </Flex>
+      <TestimonialCarousel />
     </Box>
   );
 };

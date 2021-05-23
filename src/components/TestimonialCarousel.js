@@ -66,14 +66,13 @@ export const TestimonialCarousel = () => {
 
   return (
     <Flex
-      w="full"
-      //bg={useColorModeValue("gray.200", "gray.600")}
-      p={5}
+      marginTop="5"
+      width="full"
       alignItems="center"
       justifyContent="center"
     >
-      <Flex w="40vw" overflow="hidden" pos="relative">
-        <Flex h="400px" w="full" {...carouselStyle}>
+      <Flex width={["100vw", "70vw"]} overflow="hidden" pos="relative">
+        <Flex height="400px" width="full" {...carouselStyle}>
           {slides.map((slide, sid) => (
             <Box key={`slide-${sid}`} boxSize="full" shadow="md" flex="none">
               <Text
