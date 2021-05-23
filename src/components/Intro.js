@@ -7,15 +7,15 @@ export const Intro = () => {
       <Flex
         direction={["column", "row"]}
         width={["full", "70vw"]}
-        align="center"
+        justify="center"
       >
-        <Image src="intro.png" boxSize="auto" />
-
-        <Spacer />
-
-        <Box marginTop={[10, 0]}>
-          <IntroCarouselLib />
+        <Box align="center">
+          <Image src="intro.png" boxSize={["2xs", "auto"]} />
         </Box>
+
+        {/* <Box marginTop={[10, 0]}>
+          <IntroCarouselLib />
+        </Box> */}
       </Flex>
     </Box>
   );

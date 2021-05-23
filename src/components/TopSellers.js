@@ -11,6 +11,7 @@ export const TopSellers = () => {
         direction={["column", "row"]}
         marginTop="10"
         align="center"
+        justify="center"
         width="70vw"
         spacing="4"
         marginBottom={[0, -3]}
