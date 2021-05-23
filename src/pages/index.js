@@ -11,7 +11,13 @@ const Index = () => {
     <Layout>
       <Intro />
       <TopSellers />
-      <Heading as="h3" size="lg" align="center" textColor="#F8F5ED">
+      <Heading
+        as="h3"
+        size="md"
+        align="center"
+        textColor="#F8F5ED"
+        fontWeight="light"
+      >
         See What Our Customers Are Saying
       </Heading>
       <TestimonialCarousel />
