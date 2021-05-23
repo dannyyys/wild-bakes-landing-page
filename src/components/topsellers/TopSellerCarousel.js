@@ -10,7 +10,7 @@ export const TopSellerCarousel = () => {
     duration: 3000,
     loop: true,
     mode: "free-snap",
-
+    centered: true,
     spacing: 16,
     dragStart: () => {
       setPause(true);
