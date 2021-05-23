@@ -1,6 +1,6 @@
 import { Text, Box, Flex } from "@chakra-ui/react";
 import { Footer } from "../components/Footer";
-import { Header } from "../components/header";
+import { Header } from "../components/Header";
 import { Intro } from "../components/Intro";
 
 import { Layout } from "../components/layout/Layout";
