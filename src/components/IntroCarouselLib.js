@@ -5,7 +5,7 @@ import { useKeenSlider } from "keen-slider/react";
 export const IntroCarouselLib = () => {
   const [sliderRef] = useKeenSlider({
     slidesPerView: 2,
-    spacing: 10,
+    spacing: 16,
     mode: "free-snap",
     centered: true,
     loop: true,
