@@ -16,6 +16,7 @@ export const IntroCarouselLib = () => {
       className="keen-slider"
       width={["100vw", "50vw", "40vw"]}
       ref={sliderRef}
+      marginTop="5"
     >
       <div className="keen-slider__slide">
         <Image borderRadius="2xl" boxShadow="2xl" src="buttercream.jpg" />
@@ -28,6 +29,27 @@ export const IntroCarouselLib = () => {
           borderRadius="2xl"
           boxShadow="2xl"
           src="lemon yuzu honey tart.jpg"
+        />
+      </div>
+      <div className="keen-slider__slide">
+        <Image
+          borderRadius="2xl"
+          boxShadow="2xl"
+          src="ʜᴀᴢᴇʟɴᴜᴛ ᴄʜᴏᴄᴏʟᴀᴛᴇ ɢᴀɴᴀᴄʜᴇ ᴛᴀʀᴛᴇ.jpg"
+        />
+      </div>
+      <div className="keen-slider__slide">
+        <Image
+          borderRadius="2xl"
+          boxShadow="2xl"
+          src="ᴄʜᴏᴄᴏʟᴀᴛᴇ ᴄʀᴇᴀᴍ ᴄʜᴏᴜx ᴀᴜ ᴄʀᴀǫᴜᴇʟɪɴ.jpg"
+        />
+      </div>
+      <div className="keen-slider__slide">
+        <Image
+          borderRadius="2xl"
+          boxShadow="2xl"
+          src="Choux Au Craquelin.jpg"
         />
       </div>
     </Box>

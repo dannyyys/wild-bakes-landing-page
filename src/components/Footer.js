@@ -17,12 +17,16 @@ export const Footer = () => {
         <OrderNowButton />
         <Spacer />
         <Flex direction={["column", "row"]}>
-          <Link href="https://www.facebook.com/wildbakesco/" isExternal>
+          <Link
+            href="https://www.facebook.com/wildbakesco/"
+            isExternal
+            _hover={{ textDecoration: "none" }}
+          >
             <Button
               backgroundColor="#132C36"
               size="md"
               color="white"
-              fontSize="25"
+              fontSize="lg"
               leftIcon={<FaFacebookSquare />}
             >
               Facebook
@@ -31,23 +35,28 @@ export const Footer = () => {
           <Link
             href="https://www.instagram.com/wild.bakes/?fbclid=IwAR0PGI7BiZwa1mlISx8wIxKcwnttVipszwaagkEoiyOPGTPiw-doMSoZyjs"
             isExternal
+            _hover={{ textDecoration: "none" }}
           >
             <Button
               backgroundColor="#132C36"
               size="md"
               color="white"
-              fontSize="25"
+              fontSize="lg"
               leftIcon={<FaInstagram />}
             >
               Instagram
             </Button>
           </Link>
-          <Link href="mailto:enquiries@wild-bakes.com" isExternal>
+          <Link
+            href="mailto:enquiries@wild-bakes.com"
+            isExternal
+            _hover={{ textDecoration: "none" }}
+          >
             <Button
               backgroundColor="#132C36"
               size="md"
               color="white"
-              fontSize="25"
+              fontSize="lg"
               leftIcon={<FaMailBulk />}
             >
               Email
@@ -55,7 +64,7 @@ export const Footer = () => {
           </Link>
         </Flex>
         <Spacer />
-        <Text fontSize="25" color="white">
+        <Text fontSize="lg" color="white">
           WILD BAKES © 2019 - 2021
         </Text>
       </Flex>

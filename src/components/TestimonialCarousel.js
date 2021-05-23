@@ -68,7 +68,7 @@ export const TestimonialCarousel = () => {
     <Flex
       w="full"
       //bg={useColorModeValue("gray.200", "gray.600")}
-      p={10}
+      p={5}
       alignItems="center"
       justifyContent="center"
     >

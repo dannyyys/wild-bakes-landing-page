@@ -3,10 +3,13 @@ import { OrderNowButton } from "./button/OrderNowButton";
 
 export const Intro = () => {
   return (
-    <Box align="center">
+    <Box align="center" paddingTop="10">
       <Flex direction="column" width={["full", "70vw"]} justify="center">
         <Box align="center">
-          <Image src="intro.png" boxSize={["2xs", "auto"]} />
+          <Image
+            src="Bakes For The Wild Souls new logo.png"
+            boxSize={["2xs", "auto"]}
+          />
         </Box>
 
         <Center marginTop="10">
