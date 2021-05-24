@@ -20,4 +20,4 @@ Developed by [Yeow Ying Sheng](https://yeowys.com) and [Okkar Min](https://okkar
 
 ## Final
 
-![Client request](./drafts/final.png)
+![Final](./drafts/final.png)
