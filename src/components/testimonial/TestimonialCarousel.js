@@ -71,7 +71,7 @@ export const TestimonialCarousel = () => {
       alignItems="center"
       justifyContent="center"
     >
-      <Flex width={["100vw", "60vw", "50vw"]} overflow="hidden" pos="relative">
+      <Flex width={["100vw", "30vw"]} overflow="hidden" pos="relative">
         <Flex height="400px" width="full" {...carouselStyle}>
           {slides.map((slide, sid) => (
             <Box key={`slide-${sid}`} boxSize="full" shadow="md" flex="none">

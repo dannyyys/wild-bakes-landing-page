@@ -5,17 +5,16 @@ import { Link } from "@chakra-ui/react";
 
 export const Footer = () => {
   return (
-    <Box backgroundColor="#1D323E" align="center" marginTop="10">
+    <Box backgroundColor="primary" align="center" marginTop="10">
       <Flex
         direction={["column", "row"]}
         align="baseline"
         paddingBottom="15px"
         paddingTop="15px"
-        width="80vw"
         align="center"
-        justify="space-between"
+        justify="space-around"
       >
-        <OrderNowButton />
+        <OrderNowButton marginTop={['1rem', 0]}/>
 
         <Link
           href="https://www.facebook.com/wildbakesco/"
@@ -23,27 +22,28 @@ export const Footer = () => {
           _hover={{ textDecoration: "none" }}
         >
           <Button
-            backgroundColor="#1D323E"
-            size="md"
-            color="#F8F5ED"
-            fontSize="md"
+            backgroundColor="transparent"
+            size="sm"
+            color="background"
+            fontSize="sm"
             leftIcon={<FaFacebookSquare />}
             _hover={{ backgroundColor: "none" }}
+            marginTop={['1.5rem', 0]}
           >
             Facebook
           </Button>
         </Link>
 
         <Link
-          href="https://www.instagram.com/wild.bakes/?fbclid=IwAR0PGI7BiZwa1mlISx8wIxKcwnttVipszwaagkEoiyOPGTPiw-doMSoZyjs"
+          href="https://www.instagram.com/wild.bakes"
           isExternal
           _hover={{ textDecoration: "none" }}
         >
           <Button
-            backgroundColor="#1D323E"
-            size="md"
-            color="#F8F5ED"
-            fontSize="md"
+            backgroundColor="transparent"
+            size="sm"
+            color="background"
+            fontSize="sm"
             leftIcon={<FaInstagram />}
             _hover={{ backgroundColor: "none" }}
           >
@@ -57,10 +57,10 @@ export const Footer = () => {
           _hover={{ textDecoration: "none" }}
         >
           <Button
-            backgroundColor="#1D323E"
-            size="md"
-            color="#F8F5ED"
-            fontSize="md"
+            backgroundColor="transparent"
+            size="sm"
+            color="background"
+            fontSize="sm"
             leftIcon={<FaRegEnvelope />}
             _hover={{ backgroundColor: "none" }}
           >
@@ -68,7 +68,7 @@ export const Footer = () => {
           </Button>
         </Link>
 
-        <Text fontSize="xs" color="#F8F5ED">
+        <Text fontSize="xs" color="background">
           WILD BAKES © 2019 - 2021
         </Text>
       </Flex>

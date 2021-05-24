@@ -12,15 +12,15 @@ export const MenuButton = () => {
       _hover={{ textDecoration: "none" }}
     >
       <MotionButton
-        backgroundColor="#844b55"
+        backgroundColor="secondary"
         rightIcon={<FaClipboardList />}
-        textColor="white"
+        textColor="background"
         fontSize="xl"
         fontWeight="bold"
         boxShadow="2xl"
         width="full"
         _hover={{
-          backgroundColor: "#905d66",
+          backgroundColor: "secondaryBackground",
         }}
         padding="7"
         borderRadius="2xl"

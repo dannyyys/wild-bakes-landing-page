@@ -4,7 +4,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const MotionButton = motion(Button);
 
-export const OrderNowButton = () => {
+export const OrderNowButton = (props) => {
   return (
     <Link
       href="https://wa.me/%2B6592225198?text=Hello!%20I%20would%20like%20to%20make%20a%20WILDBAKES%20order!"
@@ -12,19 +12,20 @@ export const OrderNowButton = () => {
       _hover={{ textDecoration: "none" }}
     >
       <MotionButton
-        backgroundColor="#844b55"
+        backgroundColor="secondary"
         rightIcon={<FaWhatsapp />}
-        textColor="white"
+        textColor="background"
         fontSize="xl"
         fontWeight="bold"
         boxShadow="2xl"
         width="full"
         _hover={{
-          backgroundColor: "#905d66",
+          backgroundColor: "secondaryBackground",
         }}
         padding="7"
         borderRadius="2xl"
         whileHover={{ scale: 1.1 }}
+        {...props}
       >
         Order Now
       </MotionButton>
