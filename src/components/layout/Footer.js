@@ -17,22 +17,28 @@ export const Footer = () => {
         align="center"
         justify="space-evenly"
       >
-        <Button
-          backgroundColor="secondary"
-          rightIcon={<FaWhatsapp />}
-          textColor="background"
-          fontSize="md"
-          fontWeight="bold"
-          boxShadow="2xl"
-          width="10rem"
-          _hover={{
-            backgroundColor: "secondaryBackground",
-          }}
-          marginTop={["2rem", "1rem"]}
-          marginBottom={["none", "1rem"]}
+        <Link
+          href="https://wa.me/%2B6592225198?text=Hello!%20I%20would%20like%20to%20make%20a%20WILDBAKES%20order!"
+          isExternal
+          _hover={{ textDecoration: "none" }}
         >
-          Order Now
-        </Button>
+          <Button
+            backgroundColor="secondary"
+            rightIcon={<FaWhatsapp />}
+            textColor="background"
+            fontSize="md"
+            fontWeight="bold"
+            boxShadow="2xl"
+            width="10rem"
+            _hover={{
+              backgroundColor: "secondaryBackground",
+            }}
+            marginTop={["2rem", "1rem"]}
+            marginBottom={["none", "1rem"]}
+          >
+            Order Now
+          </Button>
+        </Link>
         <Flex direction={["column", "row"]}>
           <Link
             href="https://www.facebook.com/wildbakesco/"
