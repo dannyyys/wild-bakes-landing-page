@@ -4,8 +4,9 @@ Developed by [Yeow Ying Sheng](https://yeowys.com) and [Okkar Min](https://okkar
 
 # 🥞 Technology Stack
 
-- NextJS
-- ChakraUI
+- 🎞 Framework : NextJS
+- 💄 UI Components : ChakraUI
+- 🎬 Animations : Framer Motion
 
 # 📑 Drafts
 
