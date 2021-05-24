@@ -200,7 +200,7 @@ export const TestimonialCarousel = () => {
       <div className="keen-slider__slide">
         <Image
           borderRadius="2xl"
-          src="testimonial/test31.png"
+          src="testimonial/test31.jpg"
           objectFit="contain"
           height={["300"]}
           width={["275"]}
@@ -209,7 +209,7 @@ export const TestimonialCarousel = () => {
       <div className="keen-slider__slide">
         <Image
           borderRadius="2xl"
-          src="testimonial/test32.png"
+          src="testimonial/test32.jpg"
           objectFit="contain"
           height={["300"]}
           width={["275"]}
@@ -218,7 +218,7 @@ export const TestimonialCarousel = () => {
       <div className="keen-slider__slide">
         <Image
           borderRadius="2xl"
-          src="testimonial/test33.png"
+          src="testimonial/test33.jpg"
           objectFit="contain"
           height={["300"]}
           width={["275"]}
