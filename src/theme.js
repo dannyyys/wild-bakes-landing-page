@@ -8,11 +8,11 @@ const fonts = {
 const theme = extendTheme({
   fonts,
   colors: {
-    background: '#E9E3D9',
-    primary: '#253F4E',
-    secondary: '#844b55',
-    secondaryBackground: '#905d66',
-  }
+    background: "#E9E3D9",
+    primary: "#253F4E",
+    secondary: "#844b55",
+    secondaryBackground: "#905d66",
+  },
 });
 
 export default theme;

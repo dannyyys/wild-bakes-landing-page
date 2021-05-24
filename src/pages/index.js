@@ -6,6 +6,7 @@ import { Footer } from "../components/layout/Footer";
 import { Intro } from "../components/introduction/Intro";
 import { Testimonial } from "../components/testimonial/Testimonial";
 import { TopSellers } from "../components/topsellers/TopSellers";
+import { Insta } from "../components/Insta";
 
 const MotionBox = motion(Box);
 
@@ -20,7 +21,8 @@ const Index = () => {
         <Intro />
       </MotionBox>
 
-      <TopSellers />
+      {/* <TopSellers /> */}
+      <Insta />
       <Testimonial />
       <Footer />
     </Layout>
