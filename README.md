@@ -4,6 +4,10 @@
 
 ![Final Product](./drafts/final.png)
 
+## Responsive layout
+
+![3 Devices](./drafts/3_devices.png)
+
 Developed by [Yeow Ying Sheng](https://yeowys.com) and [Okkar Min](https://okkarm.in) for [ Wild Bakes ](https://www.instagram.com/wild.bakes)
 
 # 🥞 Technology Stack
