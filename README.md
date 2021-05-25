@@ -15,27 +15,27 @@ Developed by [Yeow Ying Sheng](https://yeowys.com) and [Okkar Min](https://okkar
 # Folder structure
 
 ```
-wild-bakes-landing-page/
-┣━━ 📂 drafts/              # Images of initial prototype drafts
-┣━━ 📂 public/              # Static assets (images, favicon)
-┃ ┗━━ 📂 testimonial/       # Images of WildBakes customer testimonials
-┣━━ 📂 src/
-┃ ┣━━ 📂 components/
-┃ ┃ ┣━━ 📂 button/
-┃ ┃ ┣━━ 📂 introduction/
-┃ ┃ ┣━━ 📂 layout/
-┃ ┃ ┣━━ 📂 testimonial/
-┃ ┃ ┣━━ 📂 topsellers/
-┃ ┃ ┗━━ Insta.js/
-┃ ┣━━ 📂 pages/
-┃ ┃ ┣━━ _app.js/
-┃ ┃ ┣━━ _document.js/       # SEO meta tags goes here
-┃ ┃ ┗━━ index.js/           # Single page site
-┃ ┗━━ theme.js/             # Sitewide theme configuration
-┣━━ .gitignore/
-┣━━ README.md/
-┣━━ package-lock.json/
-┗━━ package.json/
+wild-bakes-landing-page
+┣━━ 📂 drafts              # Images of initial prototype drafts
+┣━━ 📂 public              # Static assets (images, favicon)
+┃ ┗━━ 📂 testimonial       # Images of WildBakes customer testimonials
+┣━━ 📂 src
+┃ ┣━━ 📂 components
+┃ ┃ ┣━━ 📂 button
+┃ ┃ ┣━━ 📂 introduction
+┃ ┃ ┣━━ 📂 layout
+┃ ┃ ┣━━ 📂 testimonial
+┃ ┃ ┣━━ 📂 topsellers
+┃ ┃ ┗━━ Insta.js
+┃ ┣━━ 📂 pages
+┃ ┃ ┣━━ _app.js
+┃ ┃ ┣━━ _document.js       # SEO meta tags goes here
+┃ ┃ ┗━━ index.js           # Single page site
+┃ ┗━━ theme.js             # Sitewide theme configuration
+┣━━ .gitignore
+┣━━ README.md
+┣━━ package-lock.json
+┗━━ package.json
 ```
 
 # 📑 Drafts
