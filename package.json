@@ -26,7 +26,6 @@
     "@fontsource/bebas-neue": "^4.3.0",
     "@fontsource/cinzel": "^4.3.0",
     "@fontsource/montserrat": "^4.3.0",
-    "destack": "^0.8.1",
     "framer-motion": "^4.1.17",
     "keen-slider": "^5.4.1",
     "next": "latest",
