@@ -13,8 +13,8 @@ const Index = () => {
   return (
     <Layout>
       <MotionBox
-        initial={{ x: "-100vw" }}
-        animate={{ x: 0 }}
+        initial={{ scale: 0 }}
+        animate={{ scale: 1 }}
         transition={{ duration: 1 }}
       >
         <Intro />
