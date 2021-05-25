@@ -15,15 +15,6 @@ export const Intro = () => {
           />
         </Box>
 
-        {/* <Heading
-          as="h3"
-          size="lg"
-          textColor="primary"
-          fontWeight="bold"
-          marginTop="2rem"
-        >
-          Bakes for the wild soul
-        </Heading> */}
         <Box align="center">
           <Image src="BFTWS Transparent.png" objectFit="cover" marginTop="5" />
         </Box>
