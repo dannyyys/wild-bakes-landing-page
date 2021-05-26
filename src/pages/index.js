@@ -20,7 +20,6 @@ const Index = () => {
         <Intro />
       </MotionBox>
 
-      {/* <TopSellers /> */}
       <Insta />
       <Testimonial />
       <Footer />

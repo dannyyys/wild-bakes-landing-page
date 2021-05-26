@@ -1,4 +1,4 @@
-import { Box, Flex, Image, Center, Heading } from "@chakra-ui/react";
+import { Box, Flex, Image, Center } from "@chakra-ui/react";
 import { MenuButton } from "../button/MenuButton";
 import { OrderNowButton } from "../button/OrderNowButton";
 

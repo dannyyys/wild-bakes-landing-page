@@ -1,5 +1,4 @@
-import { Box, Flex, Button, Spacer, Image, Heading } from "@chakra-ui/react";
-import { TopSellerCarousel } from "../topsellers/TopSellerCarousel";
+import { Box, Heading } from "@chakra-ui/react";
 import { TestimonialCarousel } from "./TestimonialCarousel";
 
 export const Testimonial = () => {

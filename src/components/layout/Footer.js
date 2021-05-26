@@ -1,12 +1,10 @@
-import { Box, Flex, Button, Spacer, Image, Text } from "@chakra-ui/react";
-import { OrderNowButton } from "../button/OrderNowButton";
+import { Box, Button, Flex, Link, Text } from "@chakra-ui/react";
 import {
   FaFacebookSquare,
   FaInstagram,
   FaRegEnvelope,
   FaWhatsapp,
 } from "react-icons/fa";
-import { Link } from "@chakra-ui/react";
 
 export const Footer = () => {
   return (
