@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import { Button, Link } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 import { FaClipboardList } from "react-icons/fa";
@@ -5,12 +6,18 @@ import { FaClipboardList } from "react-icons/fa";
 const MotionButton = motion(Button);
 
 export const MenuButton = () => {
+  const [menuURL, setMenuURL] = useState();
+
+  const getMenuID = async () => {
+    const response = await fetch("/api/getMenu");
+    const responseJSON = await response.json();
+    setMenuURL(responseJSON.url);
+  };
+
+  useEffect(() => getMenuID(), []);
+
   return (
-    <Link
-      href="https://drive.google.com/file/d/1sLnAc2mRl5m8kgHLdwcRkUnR1_f9KsAo/view?usp=sharing"
-      isExternal
-      _hover={{ textDecoration: "none" }}
-    >
+    <Link href={menuURL} isExternal _hover={{ textDecoration: "none" }}>
       <MotionButton
         backgroundColor="secondary"
         rightIcon={<FaClipboardList />}
