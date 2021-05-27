@@ -65,7 +65,7 @@ export const TestimonialCarousel = () => {
     >
       {[...Array(33)].map((_, i) => {
         return (
-          <div className="keen-slider__slide">
+          <div key={i} className="keen-slider__slide">
             <TestimonialCarouselImage src={`testimonial/test${i}.png`} />
           </div>
         );
