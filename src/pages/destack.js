@@ -1,3 +1,6 @@
 import "grapesjs/dist/css/grapes.min.css";
-export { getStaticProps } from "destack/build/server";
-export { ContentProvider as default } from "destack";
+export { ContentProvider } from "destack";
+
+export default function Destack(props) {
+  return <ContentProvider {...props} server={False} />;
+}
