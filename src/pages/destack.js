@@ -1,6 +1,6 @@
 import "grapesjs/dist/css/grapes.min.css";
-export { ContentProvider } from "destack";
+import { ContentProvider } from "destack";
 
 export default function Destack(props) {
-  return <ContentProvider {...props} server={False} />;
+  return <ContentProvider {...props} server={false} />;
 }
